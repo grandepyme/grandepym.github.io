@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
+
+
+
+
+
+
+#dropdown-menu-l .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-l .nav .link,
+#dropdown-menu-l .dropdown-item {
+  font-size: 1em;
+  color: #000000;
+}
+#dropdown-menu-l .navbar,
+#dropdown-menu-l .dropdown-menu {
+  background: #f1e150;
+}
+#dropdown-menu-l .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-l .dropdown-menu a:hover,
+#dropdown-menu-l .dropdown-menu a:focus {
+  background: #efde3d;
+}
+#dropdown-menu-l .navbar-toggler {
+  color: #000000;
+}
+#header4-2 H1 {
+  font-family: 'Arimo', sans-serif;
+  color: #fff8e0;
+}
+#header4-2 P {
+  color: #f1c050;
+}
+#msg-box3-5 .mbr-header .mbr-header__text {
+  text-align: center;
+}
+#msg-box3-5 .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#msg-box3-5 .mbr-section-title {
+  font-family: 'Lato', sans-serif;
+}
+#msg-box3-b .mbr-header .mbr-header__text {
+  text-align: center;
+}
+#msg-box3-b .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#msg-box3-b .mbr-section-title {
+  font-family: 'Open Sans', sans-serif;
+}
+#features1-3 H4 {
+  font-family: 'Titillium Web', sans-serif;
+}
+#msg-box4-f .mbr-section-title {
+  font-family: 'Lato', sans-serif;
+}
+#msg-box3-e .mbr-header .mbr-header__text {
+  text-align: center;
+}
+#msg-box3-e .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#msg-box3-e .mbr-section-title {
+  font-family: 'Open Sans', sans-serif;
+}
+#dropdown-menu-m .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-m .nav .link,
+#dropdown-menu-m .dropdown-item {
+  font-size: 1em;
+  color: #000000;
+}
+#dropdown-menu-m .navbar,
+#dropdown-menu-m .dropdown-menu {
+  background: #f1e150;
+}
+#dropdown-menu-m .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-m .dropdown-menu a:hover,
+#dropdown-menu-m .dropdown-menu a:focus {
+  background: #efde3d;
+}
+#dropdown-menu-m .navbar-toggler {
+  color: #000000;
+}
