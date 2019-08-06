@@ -13,7 +13,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.7",
     "siteFonts": [],
-    "uniqCompNum": 25,
+    "uniqCompNum": 32,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png"
   },
@@ -35,8 +35,10 @@
             },
             ".navbar-brand a": {},
             ".nav .link, .dropdown-item": {
-              "font-size": "1em",
-              "color": "#000000"
+              "font-size": "1.2em",
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-family": "'Yanone Kaffeesatz', sans-serif"
             },
             ".navbar, .dropdown-menu": {
               "background": "#f1e150"
@@ -55,11 +57,15 @@
             "sticky": true,
             "transparent": false,
             "bgColor": "#f1e150",
-            "fontSize": 1,
-            "fontName": {},
+            "fontSize": "1.2",
+            "fontName": {
+              "name": "Yanone Kaffeesatz",
+              "url": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "css": "'Yanone Kaffeesatz', sans-serif"
+            },
             "fontColor": "#000000"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-e\">PRECIOS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-b\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-5\">Servicios</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-e\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Nosotros &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">Servicios &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contacto.html\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -67,8 +73,9 @@
               "class": "",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
@@ -79,43 +86,70 @@
           "_anchor": "dropdown-menu-l"
         },
         {
-          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "left",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1278.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#fff8e0",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#ffffff",
-            "overlayOpacity": 0.5
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#000000",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/empresa5-1920x848.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "<br>Publicidad Mundial",
+                "contentAlign": "left",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": true,
+                "overlayColor": "#000000"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/1diseoweb-1280x896.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "<br>Diseño Web Profesional",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": true,
+                "overlayColor": "#000000"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/posicionamiento-web-seo-buscadores-1200x809.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Diseño de marca",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": false,
+                "overlayColor": "#000000",
+                "overlayOpacity": "0.4"
+              }
+            ]
           },
-          "title": "Creamos un Sitio Web<br>",
-          "text": "para tu negocio y ¡lo hacemos más grande!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Pequeño</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Mediano</a>",
+          "articleLayout": false,
           "alias": "purity/components",
           "_tags": [
             "Tema"
           ],
-          "_name": "header4",
-          "_anchor": "header4-2",
+          "_name": "slider",
+          "_anchor": "slider-u",
           "_styles": {
-            "H1": {
-              "font-family": "'Arimo', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Arimo:400,700",
-              "color": "#fff8e0"
-            },
-            "P": {
-              "color": "#f1c050"
+            "H2": {
+              "color": "#fbf2be",
+              "font-size": "36px",
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
             }
           }
         },
@@ -138,7 +172,7 @@
             "showText": true,
             "showButton": true,
             "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
             "parallax": true,
@@ -171,53 +205,60 @@
             "bgColor": "#efefef",
             "images": [
               {
-                "image": "@PROJECT_PATH@/assets/images/photo-3.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-3-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/webrestaurante-600x404.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webrestaurante-600x404-600x404.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/webrestaurante2-696x464.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webrestaurante2-696x464-696x464.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/webpizzeria-616x357.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webpizzeria-616x357-616x357.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/webrestauramte-590x326.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webrestauramte-590x326-590x326.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/wehospital-700x500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/wehospital-700x500-700x500.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/webferretieria-800x600.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webferretieria-800x600-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/webbar-500x275.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webbar-500x275-500x275.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/webjoyeria-800x411.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/webjoyeria-800x411-800x411.jpg",
                 "alt": "",
                 "title": "",
                 "active": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-4.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-4-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-5.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-5-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-7.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-7-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-8.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-8-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-11.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-11-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-12.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-12-small.jpg",
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/photo-13.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/photo-13-small.jpg",
-                "alt": "",
-                "title": ""
               }
             ]
           },
@@ -247,8 +288,8 @@
             "showMeta": false,
             "showText": false,
             "showButton": false,
-            "paddingTop": "2",
-            "paddingBottom": "0",
+            "paddingTop": "3",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
             "parallax": true,
@@ -359,7 +400,7 @@
               "size": 0
             }
           },
-          "title1": "Asesoramiento",
+          "title1": "Amistad",
           "caption1": "Bootstrap 3 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
           "title2": "Adaptabilidad",
           "caption2": "One of Bootstrap 3's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
@@ -393,7 +434,7 @@
             "showButtons": true,
             "inverse": true,
             "imageSize": "32",
-            "paddingTop": "0",
+            "paddingTop": "3",
             "paddingBottom": "2",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
@@ -430,7 +471,7 @@
             }
           },
           "title": "Profesionalismo",
-          "text": "<p>Mobirise helps you cut down development time by providing you with a flexible website editor.</p>",
+          "text": "<p>Hacer nuestro mejor trabajo nos caracteriza. Nuestros trabajos hablan por si mismos.&nbsp;</p>",
           "alias": "purity/components",
           "_tags": [
             "Tema"
@@ -443,6 +484,47 @@
             ".mbr-section-title": {
               "font-family": "'Lato', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          }
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false,
+            "contentAlign": "left",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1278.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "Creamos un Sitio Web<br>",
+          "text": "para tu negocio y ¡lo hacemos más grande!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Pequeño</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-black\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Mediano</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-2",
+          "_styles": {
+            "H1": {
+              "font-family": "'Arimo', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arimo:400,700",
+              "color": "#fff8e0"
+            },
+            "P": {
+              "color": "#f1c050"
             }
           }
         },
@@ -492,8 +574,8 @@
         },
         {
           "_params": {
-            "firstType": "bg-warning",
-            "secondType": "bg-success",
+            "firstType": "bg-success",
+            "secondType": "bg-warning",
             "thirdType": "bg-danger",
             "fourthType": "bg-primary",
             "paddingTop": 3,
@@ -512,10 +594,10 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title1": "BÁSICO / personal",
-          "title2": "EMPRESA / negocios p",
-          "title3": "PREMIUM / negocios m",
-          "title4": "DIAMANTE / tienda online",
+          "title1": "STARTUP",
+          "title2": "PYME",
+          "title3": "CORPORATIVO",
+          "title4": "VIP",
           "currency1": "$",
           "currency2": "$",
           "currency3": "$",
@@ -523,17 +605,17 @@
           "price1": "125",
           "price2": "209",
           "price3": "292",
-          "price4": "690",
+          "price4": "500",
           "period1": "por mes<br>/facturación anual<br>",
           "period2": "&nbsp;por mes<br>/facturación anual<br>",
           "period3": "&nbsp;por mes<br>/facturación anual<br>",
           "period4": "por mes<br>/facturación anual<br>",
-          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">MAQUETADO&nbsp;</b></li><li class=\"list-group-item\"><b>DISEÑO&nbsp;</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">HOSPEDAJE SENCILLO</b><br></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">DOMINIO .xyz, club, .site</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">MANTENIMIENTO 3 AL AÑO</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\"><br></b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\"><br></b></li></ul>",
-          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b>MAQUETADO</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">DISEÑO</b></li><li class=\"list-group-item\"><b>HOSPEDAJE PRO</b></li><li class=\"list-group-item\"><b>DOMINIO .com, .mx, .net&nbsp;</b></li><li class=\"list-group-item\"><b>MANTENIMIENTO 6 AL AÑO</b></li><li class=\"list-group-item\"><b><br></b></li><li class=\"list-group-item\"><b><br></b></li></ul>",
-          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">MAQUETADO PRO</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">DISEÑO PRO</b></li><li class=\"list-group-item\"><b>HOSPEDAJE PRO</b></li><li class=\"list-group-item\"><b>DOMINIO .com, .mx, .net</b></li><li class=\"list-group-item\"><b>MANTENIMIENTO 12 AL AÑO</b></li><li class=\"list-group-item\"><b>SOPORTE TECNICO</b></li><li class=\"list-group-item\"><br></li></ul>",
-          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">MAQUETADO PRO</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">DISEÑO PRO</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">HOSPEDAJE PRO</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">DOMINIO .com, .mx, .net, .org</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">MANTENIMIENTO &nbsp;24 AL AÑO</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">TIENDA ONLINE</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">SOPORTE TECNICO</b></li></ul>",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">INFO</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">INFO</a>",
+          "list1": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">LANDING PAGE C/ DISEÑO RESPONSIVO</b></li><li class=\"list-group-item\"><b>DOMINIO .COM .NET &nbsp;COM.MX</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">HOSPEDAJE POR UN AÑO</b><br></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">BOTON DE CONTACTO MESSENGER O WHATSAPP&nbsp;</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\"><br></b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\"><br></b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\"><br></b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\"><br></b></li></ul>",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">WEB EMPRESARIAL RESPONSIVO CON 5 SECCIONES</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">DOMINIO .COM .NET &nbsp;COM.MX</b><br></li><li class=\"list-group-item\"><b>HOSPEDAJE POR UN AÑO\n</b></li><li class=\"list-group-item\"><b>BOTON DE CONTACTO MESSENGER O WHATSAPP</b></li><li class=\"list-group-item\"><b><br></b></li><li class=\"list-group-item\"><b><br></b></li><li class=\"list-group-item\"><b><br></b></li><li class=\"list-group-item\"><b><br></b></li><li class=\"list-group-item\"><b>\"MAS POPULAR\"</b></li></ul>",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">WEB EMPRESARIAL RESPONSIVO CON 5 SECCIONES</b><br></li><li class=\"list-group-item\"><b>DOMINIO .COM .NET &nbsp;COM.MX\n</b></li><li class=\"list-group-item\"><b>HOSPEDAJE POR UN AÑO\n</b></li><li class=\"list-group-item\"><b>BOTON DE CONTACTO MESSENGER O WHATSAPP</b></li><li class=\"list-group-item\"><b>DISEÑO DE MARCA</b></li><li class=\"list-group-item\"><b><br></b></li><li class=\"list-group-item\"><b><br></b></li><li class=\"list-group-item\"><b><br></b></li></ul>",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">WEB EMPRESARIAL RESPONSIVO CON 5 SECCIONES&nbsp;</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">DOMINIO .COM .NET &nbsp;COM.MX\n</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">HOSPEDAJE POR UN AÑO\n</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">BOTON DE CONTACTO MESSENGER O WHATSAPP</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">DISEÑO DE MARCA</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\">POSICIONAMIENTO WEB</b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\"><br></b></li><li class=\"list-group-item\"><b style=\"font-size: 1rem;\"><br></b></li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"index.html#pricing-table1-d\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">INFO</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-danger-outline btn-danger\" data-toolbar=\"-mbrBtnMove\">INFO</a>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-black-outline btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">INFO</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrBtnMove\">INFO</a>",
           "alias": "purity/components",
@@ -561,7 +643,7 @@
               "state": "ok"
             }
           },
-          "text1": "<b><br></b><br><br><b>Dirección</b><br>Oaxaca de Juarez<br><br>\n<strong>Contacto</strong><br>grandepyme@gmail.com<br>9531785502<br><br>",
+          "text1": "<b><br></b><br><br><b>Dirección</b><br>Oaxaca de Juarez<br><br>\n<strong>Contacto</strong><br>grandepyme@gmail.com<br>9514201881<br><br>",
           "text2": "<ul></ul>",
           "alias": "purity/components",
           "_tags": [
@@ -575,7 +657,7 @@
     "contacto.html": {
       "settings": {
         "title": "contacto",
-        "order": 1
+        "order": 3
       },
       "components": [
         {
@@ -605,11 +687,15 @@
             "sticky": true,
             "transparent": false,
             "bgColor": "#f1e150",
-            "fontSize": 1,
-            "fontName": {},
+            "fontSize": "1.2",
+            "fontName": {
+              "name": "Yanone Kaffeesatz",
+              "url": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "css": "'Yanone Kaffeesatz', sans-serif"
+            },
             "fontColor": "#000000"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-e\">PRECIOS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-b\">Nosotros</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-5\">Servicios</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-e\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Nosotros &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">Servicios &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contacto.html\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -617,7 +703,7 @@
               "class": "",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": ""
             }
           },
@@ -633,17 +719,17 @@
             "showTitle": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
             "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
           "title": "Presupuesto",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\">Contact Us</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning-outline btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>",
           "form": {
             "action": "grandepyme@gmail.com",
             "alerts": {
@@ -676,7 +762,14 @@
             "Tema"
           ],
           "_name": "form1",
-          "_anchor": "form1-o"
+          "_anchor": "form1-o",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "color": "#fff8e0"
+            }
+          }
         },
         {
           "_params": {
@@ -696,7 +789,7 @@
               "state": "ok"
             }
           },
-          "text1": "<b><br></b><br><br><b>Dirección</b><br>Oaxaca de Juarez<br><br>\n<strong>Contacto</strong><br>grandepyme@gmail.com<br>9531785502<br><br>",
+          "text1": "<b><br></b><br><br><b>Dirección</b><br>Oaxaca de Juarez<br><br>\n<strong>Contacto</strong><br>grandepyme@gmail.com<br>9514201881<br><br>",
           "text2": "<ul></ul>",
           "alias": "purity/components",
           "_tags": [
@@ -704,6 +797,253 @@
           ],
           "_name": "contacts2",
           "_anchor": "contacts2-n"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "nosotros",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#f1e150"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#efde3d"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#f1e150",
+            "fontSize": "1.2",
+            "fontName": {
+              "name": "Yanone Kaffeesatz",
+              "url": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "css": "'Yanone Kaffeesatz', sans-serif"
+            },
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-e\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Nosotros &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">Servicios &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contacto.html\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/newdesign-1-original-4-128x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-p"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12829.874082868662!2d-96.72336758335643!3d17.05579917668148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c72247895b3585%3A0x602b30e64f64fb00!2sOaxaca!5e0!3m2!1ses!2smx!4v1560568356994!5m2!1ses!2smx\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+              "placeId": "iframe",
+              "state": "ok"
+            }
+          },
+          "text1": "<b><br></b><br><br><b>Dirección</b><br>Oaxaca de Juarez<br><br>\n<strong>Contacto</strong><br>grandepyme@gmail.com<br>9514201881<br><br>",
+          "text2": "<ul></ul>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-q"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "title": "servicios",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#f1e150"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#efde3d"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#f1e150",
+            "fontSize": "1.2",
+            "fontName": {
+              "name": "Yanone Kaffeesatz",
+              "url": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "css": "'Yanone Kaffeesatz', sans-serif"
+            },
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-e\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">Nosotros &nbsp; &nbsp; &nbsp;&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">Servicios &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"contacto.html\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/newdesign-1-original-4-128x128.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-r"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": false,
+            "bgColor": "#000000",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/vip-1-1200x617.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Publicidad en redes",
+                "contentAlign": "center",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": true,
+                "overlayColor": "#000000"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/pyme-1-1200x675.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "&nbsp; &nbsp; &nbsp;Asesoramiento empresarial",
+                "contentAlign": "center",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": true,
+                "overlayColor": "#000000"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/startup-1200x642.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "title": "Diseño de marca",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">For Windows</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">For Mac</a>",
+                "overlay": true,
+                "overlayColor": "#000000"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "slider",
+          "_styles": {
+            "H2": {
+              "color": "#f1e150",
+              "font-size": "48px",
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
+            }
+          },
+          "_anchor": "slider-v"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12829.874082868662!2d-96.72336758335643!3d17.05579917668148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c72247895b3585%3A0x602b30e64f64fb00!2sOaxaca!5e0!3m2!1ses!2smx!4v1560568356994!5m2!1ses!2smx\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+              "placeId": "iframe",
+              "state": "ok"
+            }
+          },
+          "text1": "<b><br></b><br><br><b>Dirección</b><br>Oaxaca de Juarez<br><br>\n<strong>Contacto</strong><br>grandepyme@gmail.com<br>9514201881<br><br>",
+          "text2": "<ul></ul>",
+          "alias": "purity/components",
+          "_tags": [
+            "Tema"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-s"
         }
       ]
     }
